@@ -10,7 +10,7 @@ const About = () => {
           <img
             src="/abt1.png"
             alt="website-about_image"
-            className="w-full p-10 h-[600px] object-cover aboutImg"
+            className="w-full lg:p-10 lg:h-[600px] object-cover aboutImg"
           />
         </div>
         <div className="space-y-4 flex-1 p-3">
@@ -19,7 +19,7 @@ const About = () => {
             Some Beautyful Features Of Our Software
           </h1>
 
-          <p className="text-lg text-slate-600 pb-5 text-justify">
+          <p className="text-lg text-slate-600 pb-5 text-left">
             Web-enabled deliverables without enterprise strategic theme are
             backward-compatible process improvements thenabled deliverib without
             enterprise strategic theme areas.
