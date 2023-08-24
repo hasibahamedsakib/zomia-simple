@@ -33,7 +33,7 @@ const Services = () => {
               <img
                 src={image}
                 alt=""
-                className="w-48 h-40 mx-auto rounded-full"
+                className="w-48 h-40 mx-auto rounded-full object-cover"
               />
 
               <h2 className="text-2xl font-semibold">{title}</h2>
