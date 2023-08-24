@@ -15,7 +15,7 @@ const About = () => {
         </div>
         <div className="space-y-4 flex-1 p-3">
           <SectionTitle text="About Us" />
-          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold  text-slate-800 leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold  text-slate-800 leading-tight">
             Some Beautyful Features Of Our Software
           </h1>
 
@@ -28,8 +28,8 @@ const About = () => {
           <div className="space-y-2 pb-5">
             <span className="flex gap-2 items-center text-lg text-slate-600">
               {" "}
-              <BsFillCheckCircleFill className="w-5 h-5 text-[#ff8c00]" /> Deos
-              et accusamus et iusto odio
+              <BsFillCheckCircleFill className="w-5 h-5 text-[#ff8c00]" />{" "}
+              Deoset accusamus et iusto odio
             </span>
             <span className="flex gap-2 items-center text-lg text-slate-600">
               {" "}
