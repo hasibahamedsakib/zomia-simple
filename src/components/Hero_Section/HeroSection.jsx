@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <div className="bg-[url('/hero-bg.jpg')] pt-14 h-screen">
+    <div className="bg-[url('/hero-bg.jpg')]  h-screen">
       <h1>This is Home</h1>
     </div>
   );

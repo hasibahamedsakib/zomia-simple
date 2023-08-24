@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 .container {
-  @apply w-full max-w-7xl mx-auto px-8;
+  @apply w-full lg:max-w-7xl mx-auto lg:px-8;
 }
 .active {
   @apply text-[#543cfe];
 }
 
 .btn-main {
-  @apply font-bold text-lg text-white outline-none  rounded-sm px-8 py-3 bg-gradient-to-r from-[#533dfe] to-[#740fd7] hover:from-[#740fd7] hover:to-[#533dfe];
+  @apply font-bold text-lg text-white outline-none  rounded-sm px-4 py-2 lg:px-8 lg:py-3 bg-gradient-to-r from-[#533dfe] to-[#740fd7] hover:from-[#740fd7] hover:to-[#533dfe];
 }
