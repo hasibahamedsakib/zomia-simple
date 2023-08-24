@@ -23,17 +23,20 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-10 ">
         {services.map(({ id, title, description, image }) => {
           return (
-            <div key={id} className="border-2 p-5 rounded-md">
+            <div
+              key={id}
+              className="shadow-lg p-6 rounded-md space-y-3 text-center hover:shadow-2xl hover:scale-105 hover:top-10 transition-all duration-300"
+            >
               <img
                 src={image}
                 alt=""
                 className="w-40 h-40 mx-auto rounded-full"
               />
-              <h2>{title}</h2>
-              <p>{description}</p>
+              <h2 className="text-2xl font-semibold">{title}</h2>
+              <p className=" text-slate-600">{description}</p>
             </div>
           );
         })}

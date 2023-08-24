@@ -10,7 +10,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-lg text-slate-600 pb-5">
-            Zomia software landing page software responsible whatever <br />{" "}
+            Zomia software landing page software responsible whatever <br />
             modern Template suitable for Your business.
           </p>
           <Link to="/">
