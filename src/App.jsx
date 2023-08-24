@@ -1,14 +1,14 @@
 import Navbar from "./components/Navbar/Navbar";
-// import Service from "./components/Service/Service";
+
 import HeroSection from "./components/Hero_Section/HeroSection";
+import Services from "./components/Services/Services";
 
 const App = () => {
   return (
     <div>
       <Navbar />
       <HeroSection />
-
-      {/* <Service /> */}
+      <Services />
     </div>
   );
 };

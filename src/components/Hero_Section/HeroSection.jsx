@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <div className="bg-[url('/hero-bg.jpg')] bg-cover  h-screen pt-20">
+    <div className="bg-[url('/hero-bg.jpg')] bg-cover   py-10">
       <div className="flex items-center lg:flex-row flex-col gap-5 p-3 md:p-5 container">
         <div className="space-y-4 flex-1 ">
           <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold  text-slate-800 leading-tight">
