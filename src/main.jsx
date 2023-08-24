@@ -9,6 +9,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: "Another Route not found. Go to Previous Route",
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
