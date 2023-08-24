@@ -2,17 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* container is everywhere. */
 .container {
   @apply w-full lg:max-w-7xl mx-auto lg:px-8;
 }
+
+/* Active route color */
 .active {
   @apply text-[#543cfe];
 }
 
+/* main button code. */
 .btn-main {
   @apply font-bold text-lg text-white outline-none  rounded-sm px-4 py-2 lg:px-8 lg:py-3 bg-gradient-to-r from-[#533dfe] to-[#740fd7] hover:from-[#740fd7] hover:to-[#533dfe];
 }
 
+/* image Animation */
 .aboutImg {
   animation: move 3s infinite ease alternate;
 }

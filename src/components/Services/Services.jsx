@@ -4,6 +4,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 const Services = () => {
   const [services, setServices] = useState([]);
 
+  //Fetching Services Data on the service.data.json file.
   useEffect(() => {
     fetch("service.data.json")
       .then((res) => res.json())
@@ -23,6 +24,7 @@ const Services = () => {
         </p>
       </div>
 
+      {/* display all services data. */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 z-10 pt-10 p-3">
         {services.map(({ id, title, description, image }) => {
           return (

@@ -6,6 +6,7 @@ const About = () => {
   return (
     <div className="bg-[#f7f7ff] py-5 lg:py-10 p-3 md:p-5">
       <div className="flex items-center lg:flex-row flex-col gap-5 p-3 md:p-5 container">
+        {/* About Image  */}
         <div className="flex-1 ">
           <img
             src="/abt1.png"
@@ -13,6 +14,9 @@ const About = () => {
             className="w-full lg:p-10 lg:h-[600px] object-cover aboutImg"
           />
         </div>
+
+        {/*About section Text  */}
+
         <div className="space-y-4 flex-1 p-3">
           <SectionTitle text="About Us" />
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold  text-slate-800 leading-tight">

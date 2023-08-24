@@ -13,11 +13,13 @@ const HeroSection = () => {
             Zomia software landing page software responsible whatever <br />
             modern Template suitable for Your business.
           </p>
+          {/* Hero Button  */}
           <Link to="/">
             <button className="btn-main ">Get A Started</button>
           </Link>
         </div>
 
+        {/* hero image */}
         <div className="flex-1 pt-10">
           <img
             src="/hero-1.png"
